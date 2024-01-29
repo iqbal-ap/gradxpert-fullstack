@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book by ID</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Book List</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year Written</th>
+            <th>Price</th>
+        </tr>
+        <% books.find(item => { %>
+            <tr>
+                    <td><%= item.id %></td>
+                    <td><%= item.title %></td>
+                    <td><%= item.author %></td>
+                    <td><%= item.year_written %></td>
+                    <td><%= item.price %></td>
+            </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

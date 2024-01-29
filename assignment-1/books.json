@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Northanger Abbey",
+        "author": "Auesten, Jane",
+        "year_written": 1814,
+        "edition": "Penguin",
+        "price": 18.2
+    },
+    {
+        "id": 2,
+        "title": "War and Peace",
+        "author": "Tolstoy, Leo",
+        "year_written": 1865,
+        "edition": "Penguin",
+        "price": 12.7
+    },
+    {
+        "id": 3,
+        "title": "Anna Karenina",
+        "author": "Tolstoy, Leo",
+        "year_written": 1875,
+        "edition": "Penguin",
+        "price": 13.5
+    },
+    {
+        "id": 4,
+        "title": "Mrs. Dalloway",
+        "author": "Woolf, Virginia",
+        "year_written": 1925,
+        "edition": "Harcourt Brace",
+        "price": 25
+    }
+
+]
